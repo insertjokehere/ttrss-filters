@@ -7,6 +7,7 @@ Extra af_comics filters for TinyTinyRSS
  * Sam and Fuzzy
  * Lackadaisy
  * Gunnerkrigg Court
+ * Three Panel Soul
 
 ## Install
 
