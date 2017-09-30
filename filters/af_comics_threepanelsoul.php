@@ -17,7 +17,7 @@ class Af_Comics_ThreePanelSoul extends Af_ComicFilter {
 
 				if ($doc) {
 					$xpath = new DOMXPath($doc);
-					$basenode = $xpath->query('(//div[@id="cc-comic"]/img)')->item(0);
+					$basenode = $xpath->query('(//img[@id="cc-comic"])')->item(0);
 
 					if ($basenode) {
 						$article["content"] = $doc->saveXML($basenode);
